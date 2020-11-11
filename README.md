@@ -1,4 +1,6 @@
 # django-partial-state
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMatthiasValvekens%2Fdjango-partial-state.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMatthiasValvekens%2Fdjango-partial-state?ref=badge_shield)
+
 
 ## Summary
 
@@ -59,3 +61,6 @@ More detailed docs may or may not be made available in the future.
  - The behaviour of foreign keys and multi-table inheritance relationships comes with a few gotchas, and this library does not make any serious attempt to replicate all of Django's ORM magic concerning foreign keys. Hence, if you want to try anything complicated, you might be better off implementing your own problem-specific state wrangling solution.
  - This project was born out of a curiosity-driven afternoon hacking session. It includes a few rudimentary tests, but it shouldn't be considered production-ready. 
    That said, pull requests with improvements are welcome, I'll try to get to them in a timely manner. :)
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMatthiasValvekens%2Fdjango-partial-state.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FMatthiasValvekens%2Fdjango-partial-state?ref=badge_large)
